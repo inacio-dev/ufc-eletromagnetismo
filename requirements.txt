@@ -1,0 +1,5 @@
+numpy
+matplotlib
+scipy
+
+# sudo apt-get install python3-tk

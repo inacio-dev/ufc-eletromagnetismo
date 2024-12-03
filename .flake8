@@ -1,0 +1,13 @@
+[flake8]
+exclude = 
+    venv,
+    script_1-4.txt,
+    script_2-4.txt,
+    requirements.txt,
+max-line-length = 120
+ignore = E203,E402,E501,W503,W504
+enable-extensions = G
+select = E,W,F,C,N
+max-complexity = 25
+per-file-ignores = 
+    __init__.py: F401,F403
